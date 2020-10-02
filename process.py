@@ -9,4 +9,5 @@ def sales_reports(log_file):
             print(line)
 
 
+
 sales_reports(log_file)
