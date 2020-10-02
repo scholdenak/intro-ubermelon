@@ -9,7 +9,7 @@ def sales_reports(log_file):
         # breaks apart each line as a new data strip
         day = line[0:3]
         # shows where the day is according to index
-        if day == "Tue":
+        if day == "Mon":
         # creates conditional that acts if the day equals day requested
             print(line)
         # prints out information so its visable in terminal
