@@ -1,5 +1,5 @@
 log_file = open("um-server-01.txt")
-
+# opens file to be accessed in process.py
 
 def sales_reports(log_file):
 #sets funtion with argument
@@ -16,3 +16,4 @@ def sales_reports(log_file):
 
 
 sales_reports(log_file)
+#calls function
